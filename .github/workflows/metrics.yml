@@ -28,4 +28,5 @@ jobs:
           filename: lines-of-code.svg
           base: repositories
           config_timezone: America/New_York
-          repositories_affiliations: [owner, organization_member]
+          repositories_affiliations: owner, organization_member
+          plugin_lines: yes
