@@ -30,3 +30,15 @@ jobs:
           config_timezone: America/New_York
           repositories_affiliations: owner, organization_member
           plugin_lines: yes
+
+  activity-community:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          filename: act-com.svg
+          base: activity, community
+          config_timezone: America/New_York
