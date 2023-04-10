@@ -54,4 +54,4 @@ jobs:
           filename: issues-pulls.svg
           base: ""
           config_timezone: America/New_York
-          plugin_folowup: yes
+          plugin_followup: yes
