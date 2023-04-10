@@ -42,3 +42,16 @@ jobs:
           filename: act-com.svg
           base: activity, community
           config_timezone: America/New_York
+
+  issues-pulls:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          token: $${ secrets.METRICS_TOKEN }}
+          filename: issues-pulls.svg
+          base: ""
+          config_timezone: America/New_York
+          plugin_folowup: yes
