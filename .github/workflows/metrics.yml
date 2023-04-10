@@ -50,7 +50,7 @@ jobs:
     steps:
       - uses: lowlighter/metrics@latest
         with:
-          token: $${ secrets.METRICS_TOKEN }}
+          token: ${{ secrets.METRICS_TOKEN }}
           filename: issues-pulls.svg
           base: ""
           config_timezone: America/New_York
