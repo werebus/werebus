@@ -55,3 +55,16 @@ jobs:
           base: ""
           config_timezone: America/New_York
           plugin_followup: yes
+
+  languages:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          filename: languages.svg
+          base: ""
+          config_timezone: America/New_York
+          plugin_languages: yes
