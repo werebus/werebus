@@ -5,10 +5,14 @@ on:
   push: {branches: ["main"]}
 
 jobs:
-  github-metrics:
+  base: &base
     runs-on: ubuntu-latest
     permissions:
       contents: write
+    steps: []
+
+  github-metrics:
+    <<: *base
     steps:
       - uses: lowlighter/metrics@latest
         with:
