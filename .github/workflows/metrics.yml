@@ -4,13 +4,11 @@ on:
   workflow_dispatch:
   push: {branches: ["main"]}
 
-defaults:
-  runs-on: ubuntu-latest
-  permissions:
-    contents: write
-
 jobs:
   github-metrics:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - uses: lowlighter/metrics@latest
         with:
@@ -20,6 +18,9 @@ jobs:
           config_timezone: America/New_York
 
   lines:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - uses: lowlighter/metrics@latest
         with:
@@ -31,6 +32,9 @@ jobs:
           plugin_lines: yes
 
   activity-community:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - uses: lowlighter/metrics@latest
         with:
@@ -40,6 +44,9 @@ jobs:
           config_timezone: America/New_York
 
   issues-pulls:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - uses: lowlighter/metrics@latest
         with:
@@ -50,6 +57,9 @@ jobs:
           plugin_followup: yes
 
   languages:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - uses: lowlighter/metrics@latest
         with:
