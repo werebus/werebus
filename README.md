@@ -1,5 +1,5 @@
 <img src="header.svg">
-<a href="#" width="100%">
+<a width="100%">
 <img src="lines-of-code.svg">
 <img src="act-com.svg">
 </a>
