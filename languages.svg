@@ -16,20 +16,20 @@
             </section>
             <section class="column">
                 <h3 class="field">Most used languages</h3>
-                <small>estimation from 65mb of code in 11002 edited files across 3540 commits</small>
+                <small>estimation from 65.9mb of code in 11910 edited files across 3919 commits</small>
                 <svg class="bar" xmlns="http://www.w3.org/2000/svg" width="460" height="8">
                     <mask id="languages-bar">
                         <rect x="0" y="0" width="460" height="8" fill="white" rx="5"/>
                     </mask>
                     <rect mask="url(#languages-bar)" x="0" y="0" width="0" height="8" fill="#d1d5da"/>
-                    <rect mask="url(#languages-bar)" x="0" y="0" width="148.89062864454772" height="8" fill="#701516"/>
-                    <rect mask="url(#languages-bar)" x="148.89062864454772" y="0" width="96.75509723719762" height="8" fill="#f1e05a"/>
-                    <rect mask="url(#languages-bar)" x="245.6457258817453" y="0" width="91.22101717446435" height="8" fill="#663399"/>
-                    <rect mask="url(#languages-bar)" x="336.86674305620966" y="0" width="87.0718997968781" height="8" fill="#e34c26"/>
-                    <rect mask="url(#languages-bar)" x="423.93864285308774" y="0" width="19.52953879016059" height="8" fill="#ece2a9"/>
-                    <rect mask="url(#languages-bar)" x="443.4681816432484" y="0" width="12.914385806598942" height="8" fill="#c6538c"/>
-                    <rect mask="url(#languages-bar)" x="456.3825674498473" y="0" width="1.8170788675608172" height="8" fill="#a52a22"/>
-                    <rect mask="url(#languages-bar)" x="458.1996463174081" y="0" width="1.8003536825918804" height="8" fill="#199f4b"/>
+                    <rect mask="url(#languages-bar)" x="0" y="0" width="151.38705506990505" height="8" fill="#701516"/>
+                    <rect mask="url(#languages-bar)" x="151.38705506990505" y="0" width="93.78990774688485" height="8" fill="#f1e05a"/>
+                    <rect mask="url(#languages-bar)" x="245.1769628167899" y="0" width="88.39750298080688" height="8" fill="#663399"/>
+                    <rect mask="url(#languages-bar)" x="333.5744657975968" y="0" width="84.36532653763602" height="8" fill="#e34c26"/>
+                    <rect mask="url(#languages-bar)" x="417.9397923352328" y="0" width="19.322783745112744" height="8" fill="#ece2a9"/>
+                    <rect mask="url(#languages-bar)" x="437.2625760803456" y="0" width="12.817998903862208" height="8" fill="#c6538c"/>
+                    <rect mask="url(#languages-bar)" x="450.0805749842078" y="0" width="8.159285586735455" height="8" fill="#b07219"/>
+                    <rect mask="url(#languages-bar)" x="458.2398605709432" y="0" width="1.7601394290567962" height="8" fill="#a52a22"/>
                 </svg>
                 <div class="field center horizontal-wrap fill-width">
                     <div class="field center no-wrap language">
@@ -70,15 +70,15 @@
                     </div>
                     <div class="field center no-wrap language">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                            <path fill="#a52a22" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/>
+                            <path fill="#b07219" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/>
                         </svg>
-                        Jinja
+                        Java
                     </div>
                     <div class="field center no-wrap language">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                            <path fill="#199f4b" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/>
+                            <path fill="#a52a22" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/>
                         </svg>
-                        Vim Script
+                        Jinja
                     </div>
                 </div>
             </section>
